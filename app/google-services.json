@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824698736305",
+    "firebase_url": "https://kiitenactus-da63a.firebaseio.com",
+    "project_id": "kiitenactus-da63a",
+    "storage_bucket": "kiitenactus-da63a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824698736305:android:dd01b5a14bfc9a30",
+        "android_client_info": {
+          "package_name": "comm.examplee.kiitenactus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824698736305-jogbfmeednft41sun21bme1o9u0lqtlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comm.examplee.kiitenactus",
+            "certificate_hash": "d0a50cc9952d59a2ff88a8014cce01d1bb4d91df"
+          }
+        },
+        {
+          "client_id": "824698736305-knl5021l2dg0ac3rhmujd9m01tqrkjr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhVo0KNE9IAgfOjGrrNsjdoxdKhwDBdfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824698736305-knl5021l2dg0ac3rhmujd9m01tqrkjr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

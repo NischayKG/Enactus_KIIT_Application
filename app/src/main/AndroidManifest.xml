@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.enactus_kiit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="comm.examplee.kiitenactus.NewMain">
+
+        </activity>
+        <activity android:name="comm.examplee.kiitenactus.MainActivity">
+
+        </activity>
+        <activity android:name="comm.examplee.kiitenactus.MainFrontActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="comm.examplee.kiitenactus.Main3bActivity">
+
+        </activity>
+        <activity android:name="comm.examplee.kiitenactus.Main2bActivity">
+
+        </activity>
+        <activity android:name="comm.examplee.kiitenactus.Main3Activity">
+
+        </activity>
+        <activity android:name="comm.examplee.kiitenactus.Main2Activity">
+
+        </activity>
+    </application>
+
+</manifest>

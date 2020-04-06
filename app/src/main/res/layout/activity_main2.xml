@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    tools:context="comm.examplee.kiitenactus.Main2Activity">
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Project_Enwipe"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Service Charges-:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                app:srcCompat="@drawable/enwipe" />
+
+            <TextView
+                android:id="@+id/texiew8"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Chose the type and number of Vehicle you want to avail wash for-:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scooty---:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="                 ................................................................"
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bike---:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/e2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="                 ................................................................."
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HatchBack (CAR)--:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/e3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="                 ............................................................."
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sedan(CAR)---:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/e4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="                 ................................................................."
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/c5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suv (CAR)---:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+
+                <EditText
+                    android:id="@+id/e5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="                 ................................................................."
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="   Please  enter your details so that we can knock your "
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   door along with our service."
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textiew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="{ Customer Details }"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/n"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Name-:"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/n2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Phone Number-:"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/n3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Whatsaap Number-:"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/k3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="E-Mail( if any )-:"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/e6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint=".............................................................."
+                            android:inputType="textPersonName"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/e7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="......................................."
+                            android:inputType="number"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/e8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="......................................."
+                            android:inputType="number"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="10sp" />
+
+                        <EditText
+                            android:id="@+id/e9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="......................................."
+                            android:inputType="textPersonName"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/t26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your full address below--:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/e10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="..................................."
+                android:inputType="textPersonName"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Please Enter the DATE and TIME when you want our service--:"
+                android:textColor="@android:color/black" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textVi32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="DATE-->"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/tew32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME-->"
+                            android:textColor="@android:color/black"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/e11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="........................"
+                            android:inputType="textPersonName"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/e12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="........................."
+                            android:inputType="textPersonName"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textVi34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click below to check the final bill and confirm our service--:"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/back2"
+                android:onClick="fun8"
+                android:text="Final Bill View"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
